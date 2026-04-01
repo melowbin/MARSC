@@ -1,4 +1,4 @@
-# Modül 00: Fundementals
+# Module 00: Fundamentals
 
 MIPS mimarisinde kod yazmaya başlamadan önce, işlemcinin veriyi nasıl işlediğini ve RAM'i nasıl kullandığını anlamak gerekir.
 
