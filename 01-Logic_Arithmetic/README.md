@@ -31,8 +31,42 @@ main:
 MIPS assemblyde, her assemblyde olduğu gibi mantıksal ve shift işlemleri bulunur
 
 ### Logic
-- AND
+- **AND:** 
+```asm
+.text
+main:
+	and $s0, $t1 $t2
+```
+Bu assembly kodu şuna tekabül eder: 
+```C++
+storage0 = temporary1 & temporary2
+```
+yani
+```
+00101011 (binary)
+10010010 (binary) &
+-------------------
+00000010 (binary)
+```
+
 - OR
+```asm
+.text
+main:
+	or $s0, $t1, $t2
+```
+Bu assembly kodu C++'ta şuna tekabüldür:
+```C++
+storage0 = temporary1 | temporary2
+```
+yani
+```
+t1 = 0001001000110100 (binary)
+t2 = 0110011110001001 (binary) |
+--------------------------------
+t3 = 0111011110111101 (binary)
+```
+
 - NOR
 - XOR
 
