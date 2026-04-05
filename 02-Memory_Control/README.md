@@ -1,5 +1,7 @@
 # 02:Memory_Control
 
+*"Explore as One"*
+
 ---
 **Kurs İçeriği:**
 1. **Bellek Mimarisine Giriş**
