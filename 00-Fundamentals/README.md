@@ -6,6 +6,8 @@
 
 MIPS mimarisinde kod yazmaya başlamadan önce, işlemcinin veriyi nasıl işlediğini ve RAM'i nasıl kullandığını anlamak gerekir.
 
+Bu kısım sadece önceden gösterme amaçlıdır bu kısım 2. modül olan Memory Management altında daha detaylı işlenecektir.
+
 ---
 
 ## 1. Registers
@@ -22,17 +24,16 @@ Registers, işlemcinin (CPU) içinde bulunan çok hızlı veri depolama birimler
 ## 2. Syscalls (Sistem Çağrıları)
 **Syscall**, hazırladığınız kodun işletim sisteminden bir işlem (ekrana yazı yazdırma, sayı okuma vb.) talep etmesidir.
 
-| İşlem | $v0 Kodu | $a0 İçeriği | Sonuç |
-| :--- | :--- | :--- | :--- |
-| **Print Integer** | 1 | Yazdırılacak sayı | Sayıyı ekrana basar |
-| **Print String** | 4 | Metnin adresi | Metni ekrana basar |
-| **Read Integer** | 5 | Yok | Girilen sayı `$v0`'a döner |
-| **Exit** | 10 | Yok | Programı durdurur |
+| İşlem             | $v0 Kodu | $a0 İçeriği       | Sonuç                      |
+| :---------------- | :------- | :---------------- | :------------------------- |
+| **Print Integer** | 1        | Yazdırılacak sayı | Sayıyı ekrana basar        |
+| **Print String**  | 4        | Metnin adresi     | Metni ekrana basar         |
+| **Read Integer**  | 5        | Yok               | Girilen sayı `$v0`'a döner |
+| **Exit**          | 10       | Yok               | Programı durdurur          |
 
 ---
 
 ## 3. Bellek Segmentleri (Memory Segments)
-
 ### .text (Code)
 * **Nedir:** Yazdığınız Assembly komutlarının saklandığı yerdir.
 * **Özellik:** **Read-Only** (Salt Okunur). İşlemci buradan komutları okur ama kod çalışırken burayı değiştiremez.
@@ -47,7 +48,7 @@ Registers, işlemcinin (CPU) içinde bulunan çok hızlı veri depolama birimler
 
 ---
 
-## Temel Kod Şablonu (MARS)
+## Örnek Kod Şablonu (MARS)
 
 ```mips
 .data
