@@ -1,5 +1,9 @@
 # Module 00: Fundamentals
 
+*"Mars'a gitmek, sadece oraya bir bayrak dikmek ya da ayak izi bırakmak değildir; bu, Dünya ötesinde sürdürülebilir bir insan varlığı kurma yolculuğudur."*
+
+--- 
+
 MIPS mimarisinde kod yazmaya başlamadan önce, işlemcinin veriyi nasıl işlediğini ve RAM'i nasıl kullandığını anlamak gerekir.
 
 ---
