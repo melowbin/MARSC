@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Fundamentals/README.md",
+                "file": "01-Logic_Arithmetic/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -182,6 +182,7 @@
   },
   "active": "f2593837e534057d",
   "lastOpenFiles": [
+    "00-Fundamentals/README.md",
     "01-Logic_Arithmetic/README.md",
     "İlgili.md",
     "02-Memory_Control",
@@ -189,7 +190,6 @@
     "Docs/xor-gate.webp",
     "Docs/and-gate.webp",
     "Docs/or_gate.webp",
-    "Docs",
-    "00-Fundamentals/README.md"
+    "Docs"
   ]
 }

@@ -1,7 +1,7 @@
 # Module:01 Logic Arithmetic 
 
 *İleride yani bu zamanlarda ben bu kursu yazmama sebep olacak Sebastian Lague'ye teşekkür ederek.*
-[İlgili Kanalın İlgili Videosu](https://youtu.be/QZwneRb-zqA)
+[İlgili kanalın ilgili videosu.](https://youtu.be/QZwneRb-zqA) 💝
 ## Basic Arithmetic
 MARS, Mips assemblyde registerlar'da değerlerde aritmetik işlemler şöyledir
 
