@@ -4,8 +4,8 @@ MARSCourses, MARS simülatörü kullanarak MIPS Assembly ve sistem mimarisi konu
 ## Kurs İçeriği
 ```
 MARSCourses/
-├── 00_Fundamentals/      # Temel syscalls ve register kullanımları
-├── 01_Logic_Arithmetic/  # Bit kaydırma, AND/OR işlemleri
+├── 00_Fundamentals/x     # Temel syscalls ve register kullanımları
+├── 01_Logic_Arithmetic/x # Bit kaydırma, AND/OR işlemleri
 ├── 02_Memory_Control/    # Load/Store ve Array işlemleri
 ├── 03_Flow_Control/      # Döngü ve karar yapıları
 ├── 04_Stack_Recusion/    # Fonksiyon çağrıları ve Stack yönetimi
