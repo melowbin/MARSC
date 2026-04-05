@@ -3,11 +3,17 @@
 *"Mars'a gitmek, sadece oraya bir bayrak dikmek ya da ayak izi bırakmak değildir; bu, Dünya ötesinde sürdürülebilir bir insan varlığı kurma yolculuğudur."*
 
 --- 
-
 MIPS mimarisinde kod yazmaya başlamadan önce, işlemcinin veriyi nasıl işlediğini ve RAM'i nasıl kullandığını anlamak gerekir.
 
-Bu kısım sadece önceden gösterme amaçlıdır bu kısım 2. modül olan Memory Management altında daha detaylı işlenecektir.
+--- 
+**Kurs İçeriği:**
+1. Registers
+2. Syscalls (Sistem Çağrıları)
+3. Memory Segments (Bellek Segmentleri)
+4. Örnek MARS/MIPS Assembly kodu
 
+---
+- **Not:** Bu kısım sadece önceden gösterme amaçlıdır bu kısım 2. modül olan Memory Management altında daha detaylı işlenecektir.
 ---
 
 ## 1. Registers
