@@ -31,7 +31,15 @@ main:
 MIPS assemblyde, her assemblyde olduğu gibi mantıksal ve shift işlemleri bulunur
 
 ### Logic
-- **AND:** 
+### AND Gate 
+
+| p   | q   | p & q |
+| --- | --- | ----- |
+| 1   | 1   | 1     |
+| 1   | 0   | 0     |
+| 0   | 1   | 0     |
+| 0   | 0   | 0     |
+
 ```asm
 .text
 main:
@@ -49,7 +57,15 @@ yani
 00000010 (binary)
 ```
 
-- OR
+### OR Gate 
+
+| p   | q   | p \| q |
+| --- | --- | ------ |
+| 1   | 1   | 1      |
+| 1   | 0   | 1      |
+| 0   | 1   | 1      |
+| 0   | 0   | 0      |
+
 ```asm
 .text
 main:
@@ -61,19 +77,41 @@ storage0 = temporary1 | temporary2
 ```
 yani
 ```
-t1 = 0001001000110100 (binary)
-t2 = 0110011110001001 (binary) |
---------------------------------
-t3 = 0111011110111101 (binary)
+t1 = 0001 (binary)
+t2 = 0110 (binary) |
+---------------------
+t3 = 0111 (binary)
 ```
 
-- NOR
-- XOR
+### XOR Gate
+
+|  p  |  q  | p ^ q<br> |
+| :-: | :-: | :-------: |
+|  1  |  1  |     0     |
+|  1  |  0  |     1     |
+|  0  |  1  |     1     |
+|  0  |  0  |     0     |
+- Assembly'de XOR Gate kullanmak için
+```asm
+xor $s0 , $t1, $t2
+``` 
+- C++'ta karşılığı ise
+```C++
+storage0 = tempVal1 ^ tempVal2 
+```
+### NOR Gate
+- NOR Gate OR Gate'nin değilidir yani NOR, Or gateinden oluşturulmuştur.
+
+| p   | q   | ~(p \| q) |
+| --- | --- | --------- |
+| 1   | 1   | 0         |
+| 1   | 0   | 0         |
+| 0   | 1   | 0         |
+| 0   | 0   | 1         |
 
 ### Shifts
 - SLL & SLA
 - SRL & SRA
-
 ### Comprasion
 - SLT
 
