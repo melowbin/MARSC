@@ -14,7 +14,6 @@ MARSCourses/
 ├── 01_Logic_Arithmetic/x # Bit kaydırma, AND/OR işlemleri
 ├── 02_Memory_Control/x   # Load/Store ve Array işlemleri
 ├── 03_Flow_Control/      # Döngü ve karar yapıları
-├── 04_Stack_Recusion/    # Fonksiyon çağrıları ve Stack yönetimi
 ├── Projects/             # Gerçek dünya algoritmaları
 └── Docs/                 # Komut seti referansları ve notlar
 ```
